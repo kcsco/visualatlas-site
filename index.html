@@ -360,7 +360,7 @@
 
     .product-ladder {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
       gap: 1.5rem;
     }
 
@@ -743,15 +743,15 @@
 
   <div class="product-ladder">
 
-    <!-- FREE -->
+    <!-- FREE — Verification Preview -->
     <div class="product-card">
       <span class="product-badge free">Free</span>
       <p class="product-title">WST Verification Preview</p>
       <p class="product-price free-price">$0</p>
       <p class="product-desc">
         Six Inevitability Audits selected from the full Technical Verification Record.
-        Each audit reconstructs and independently recomputes a WST prediction from stated primitives,
-        compared to CODATA 2022 / PDG 2025 reference values.
+        Each audit reconstructs and independently recomputes a WST prediction from stated
+        primitives, compared to CODATA 2022 / PDG 2025 reference values.
       </p>
       <ul class="product-features">
         <li>Proton charge radius derivation</li>
@@ -762,13 +762,34 @@
         <li>Electron anomalous moment g−2</li>
       </ul>
       <div class="product-cta">
-        <a href="docs/WST_Verification_Preview.pdf" class="btn-secondary" download>Download Free PDF →</a>
+        <a href="https://cakster04.gumroad.com/l/vzqzm" class="btn-secondary" target="_blank" rel="noopener">Download Free →</a>
       </div>
     </div>
 
-    <!-- TVR -->
+    <!-- FREE — Book Preview -->
+    <div class="product-card">
+      <span class="product-badge free">Free</span>
+      <p class="product-title">Book Preview — ToC + Chapter One</p>
+      <p class="product-price free-price">$0</p>
+      <p class="product-desc">
+        The complete Table of Contents and Chapter One of the First Edition.
+        The ToC maps the full scope of Wave-Substrate Theory. Chapter One builds
+        the geometric intuition that underlies everything that follows.
+        No physics degree required.
+      </p>
+      <ul class="product-features">
+        <li>Full Table of Contents</li>
+        <li>Chapter One — complete</li>
+        <li>Geometric intuition before formalism</li>
+        <li>Visual reasoning before equations</li>
+      </ul>
+      <div class="product-cta">
+        <a href="https://cakster04.gumroad.com/l/ayjsog" class="btn-secondary" target="_blank" rel="noopener">Download Free →</a>
+      </div>
+    </div>
+
+    <!-- TVR — $29.99 -->
     <div class="product-card featured">
-      <img src="images/WST-Technical-Verification-Record.png" alt="Technical Verification Record" class="tvr-thumb">
       <span class="product-badge featured-badge">Technical Record</span>
       <p class="product-title">Technical Verification Record</p>
       <p class="product-price">$29.99</p>
@@ -792,33 +813,58 @@
       </div>
     </div>
 
-    <!-- COMING SOON -->
+    <!-- BUNDLE — $129.99 -->
     <div class="product-card">
-      <span class="product-badge">Coming Soon</span>
-      <p class="product-title">Atlas Engine + TVR Bundle</p>
-      <p class="product-price gold-price">$329</p>
+      <span class="product-badge featured-badge">Bundle</span>
+      <p class="product-title">Book + Verification Record</p>
+      <p class="product-price">$129.99</p>
       <p class="product-desc">
-        The complete reproducibility toolkit. The Technical Verification Record
-        paired with the Atlas Engine — the deterministic Python rendering system
-        that produced every figure in the book. Every visual claim traceable
-        to specific parameters. Same code, same image, every run.
+        The Visual Atlas of Reality PDF paired with the Technical Verification Record.
+        The book makes the argument. The Record shows every step of the formal
+        proof structure behind the claims. Read them together.
       </p>
       <ul class="product-features">
-        <li>Full Technical Verification Record</li>
-        <li>Atlas Engine source (Python / matplotlib)</li>
+        <li>PDF Book — The Visual Atlas of Reality</li>
+        <li>All 11 Inevitability Audits</li>
+        <li>Complete derivation chain</li>
+        <li>Formal lemma pack &amp; spectral proofs</li>
+      </ul>
+      <div class="product-cta">
+        <a href="https://cakster04.gumroad.com/l/agwvyk" class="btn-primary" target="_blank" rel="noopener">Get the Bundle — $129.99 →</a>
+      </div>
+    </div>
+
+    <!-- SCHOLAR'S EDITION — $349 -->
+    <div class="product-card featured">
+      <span class="product-badge featured-badge">Scholar's Edition</span>
+      <p class="product-title">Complete Scholar's Edition</p>
+      <p class="product-price gold-price">$349</p>
+      <p class="product-desc">
+        The complete reproducibility toolkit. Book, formal verification record,
+        and the Atlas Engine — the deterministic Python rendering system that
+        produced every figure. Every visual claim traceable to specific parameters.
+        Same code, same image, every run.
+      </p>
+      <ul class="product-features">
+        <li>PDF Book — The Visual Atlas of Reality</li>
+        <li>Technical Verification Record — all 11 audits</li>
+        <li>Atlas Engine v4 — Python / matplotlib</li>
         <li>All 24 figure configs (YAML-driven)</li>
         <li>Deterministic — no random seeds</li>
         <li>Extend and reproduce independently</li>
       </ul>
       <div class="product-cta">
-        <a href="#contact" class="btn-gold">Notify Me at Launch →</a>
+        <a href="https://cakster04.gumroad.com/l/honxtlo" class="btn-gold" target="_blank" rel="noopener">Get the Scholar's Edition — $349 →</a>
       </div>
     </div>
 
   </div>
 
   <p style="text-align:center; margin-top:3rem; font-family:'Space Mono',monospace; font-size:0.63rem; color:var(--dim); letter-spacing:0.1em;">
-    Full bundle (TVR + Atlas Engine + PDF Book) — $399 &nbsp;·&nbsp; Available on announcement
+    Print edition — $99 + shipping &nbsp;·&nbsp;
+    <a href="https://www.amazon.com/dp/9798250656108" style="color:var(--accent); text-decoration:none;" target="_blank" rel="noopener">Available on Amazon →</a>
+    &nbsp;·&nbsp; All digital products via
+    <a href="https://shop.thevisualatlas.org" style="color:var(--accent); text-decoration:none;" target="_blank" rel="noopener">shop.thevisualatlas.org</a>
   </p>
 </section>
 
@@ -827,7 +873,7 @@
 <!-- ── CONTACT ── -->
 <section class="contact-section" id="contact">
   <span class="section-label">Contact</span>
-  <h2 style="margin-bottom:1.5rem;">Press &amp; Academic Inquiries</h2>
+  <h2 style="margin-bottom:1.5rem;">Get in Touch</h2>
   <p>
     Physicists are invited to examine the derivations directly.
     The Verification Preview is a structured starting point for adversarial review.
@@ -836,12 +882,17 @@
     Press inquiries, institutional licensing, and academic correspondence welcome.
   </p>
   <p style="margin-top:2rem;">
+    <span style="font-family:'Space Mono',monospace; font-size:0.7rem; color:var(--dim); letter-spacing:0.1em; display:block; margin-bottom:0.5rem;">SALES &amp; SUPPORT</span>
+    <a href="mailto:info@thevisualatlas.org" class="contact-email">info@thevisualatlas.org</a>
+  </p>
+  <p style="margin-top:1.5rem;">
+    <span style="font-family:'Space Mono',monospace; font-size:0.7rem; color:var(--dim); letter-spacing:0.1em; display:block; margin-bottom:0.5rem;">PRESS &amp; ACADEMIC</span>
     <a href="mailto:press@thevisualatlas.org" class="contact-email">press@thevisualatlas.org</a>
   </p>
 </section>
 
 <footer>
-  <p class="footer-copy">© 2026 Charles Keating · The Visual Atlas of Reality · thevisualatlas.org - V1</p>
+  <p class="footer-copy">© 2026 Charles Keating · The Visual Atlas of Reality · thevisualatlas.org</p>
   <p class="footer-usco">USCO Case 1-15111796981 · All rights reserved · Published via Kindle Direct Publishing</p>
 </footer>
 
